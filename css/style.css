@@ -291,6 +291,9 @@ a.active {
     display: table;
     height: 100vh;
 }
+.meImg {
+    display: none;
+}
 .bg {
     margin-top: 78px;
     position: absolute;
@@ -301,6 +304,17 @@ a.active {
     background-position: 0 0; 
     background-repeat:no-repeat; 
     background-size: cover;
+}
+@media only screen and (max-width: 479px) and (min-width: 0px) {
+    .bg {
+        background-image: none;
+    }
+    .meImg {
+        display: block;
+        max-width: 200px;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
 }
 
 
