@@ -281,6 +281,11 @@ a.active {
 #home {
 
 }
+@media only screen and (max-width: 479px) and (min-width: 0px) {
+    .img-responsive2 {
+        display: none;
+    }
+}
 
 .table-cell {
     display: table-cell;
@@ -295,11 +300,11 @@ a.active {
     display: none;
 }
 .bg {
-    margin-top: 78px;
+    margin-top: 300px;
     position: absolute;
     left: 50%; 
-    width: 50%; 
-    height: 1200px;
+    height: 700px;
+    width: 500px;
     background-image: url(../img/portfolio/Fanni4.jpg);
     background-position: 0 0; 
     background-repeat:no-repeat; 
